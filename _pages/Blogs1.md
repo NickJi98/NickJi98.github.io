@@ -5,7 +5,8 @@ sitemap: false
 permalink: /Blogs/
 ---
 
-## My Blogs
+# My Blogs
+#### &nbsp; ####
 
 <div class="jumbotron">
 {% for article in site.data.news %}
