@@ -1,0 +1,22 @@
+- name: Qing Ji
+#   photo: headshot.jpg
+  info: Ph.D. Candidate in Geophysics, Stanford University
+  email: qingji@stanford.edu
+  github: https://github.com/NickJi98
+#  researchgate: https://www.researchgate.net/
+#  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+#  cv: cv/cv.pdf
+  # Change the number below to the number of "educations" you have (up to 6)
+  number_educ: 2
+  education1: "(2020 -) Ph.D. Geophysics, Stanford University"
+  education2: "(2016 - 2020) B.Sc. Geophysics, Peking University"
+  # education3: 
+  # education4: 
+  # education5: 
+  # education6: 
+  education1short: (2020 -) Ph.D. Geophysics, Stanford University
+  education2short: (2016 - 2020) B.Sc. Geophysics, Peking University
+  # education3short: 
+  # education4short: 
+  # education5short: 
+  # education6short: 
