@@ -55,7 +55,7 @@ iframe {
 <div class="col-xs-12 col-sm-12 col-lg-12 clearfix">
   <div class="well">
   <center><h3>Noise interferometry with DAS</h3></center>
-  <p>This is the research description</p>
+  <p>This is the research description. </p>
 </div>
 </div>
 </div>
