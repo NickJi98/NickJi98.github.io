@@ -2,7 +2,7 @@
 title: "Publications"
 layout: gridlay
 sitemap: false
-permalink: /publications/
+permalink: /Publications/
 ---
 
 <style>
