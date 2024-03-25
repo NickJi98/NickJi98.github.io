@@ -56,8 +56,6 @@ iframe {
   <div class="well">
   <center><h3>Noise interferometry with DAS</h3></center>
   <p>This is the research description</p>
-  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_Isaac.png" height="200px"/>
-  <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_PSD.png" height="200px"/> <br/>
 </div>
 </div>
 </div>
