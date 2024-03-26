@@ -83,8 +83,8 @@ iframe {
   <p>**Ji, Q.**, & Zhao, L. (2022). Automatic measurement and quality control of S3KS-SKKS differential traveltimes and the influence of mantle heterogeneity. _Geophysical Journal International_.</p>
   
   <br/>
-  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_SKKS.png" height="200px"/>
-  <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_kernel.png" height="200px"/> <br/>
+  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_SKKS.png" height="180px"/>
+  <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_kernel.png" height="180px"/> <br/>
 </div>
 </div>
 </div>
