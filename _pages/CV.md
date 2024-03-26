@@ -16,16 +16,14 @@ permalink: /CV/
 
 
 ## Education
-<div style="display: flex; flex-direction: column;">
-    <div style="display: flex;">
-        <div style="flex: 2;">2020 - Present</div>
-        <div style="flex: 10;">PhD Candidate in Geophysics, Stanford University</div>
-    </div>
-    <div style="display: flex;">
-        <div style="flex: 2;">2016 - 2020</div>
-        <div style="flex: 10;">BSc in Geophysics, Peking University</div>
-    </div>
-</div>
+<table style="width: 100%;">
+  <col width="100px">
+  <col width="200px">
+  <tr>
+    <td>Column 1</td>
+    <td>Column 2</td>
+  </tr>
+</table>
 
 
 #### &nbsp; ####
