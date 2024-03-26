@@ -47,8 +47,8 @@ iframe {
   <p>**Ji, Q.**, & Dunham, E. M. (2024). Ambient noise from the atmosphere within the seismic hum period band: A case study of hurricane landfall. _Earth and Planetary Science Letters_.</p>
 
   <br/>
-  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_Isaac.png" height="200px"/>
-  <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_PSD.png" height="200px"/> <br/>
+  <img align="left" src="{{ site.url }}{{ site.baseurl }}/_data/images/site_Isaac.png" height="200px"/>
+  <img align="right" src="{{ site.url }}{{ site.baseurl }}/_data/images/site_PSD.png" height="200px"/> <br/>
 </div>
 </div>
 </div>
@@ -66,8 +66,8 @@ iframe {
   <p>**Ji, Q.**, Luo, B., & Biondi, B. (2024). Exploiting the Potential of Urban DAS Grids: Ambient-Noise Subsurface Imaging Using Joint Rayleigh and Love Waves. _Seismological Research Letters_.</p>
   
   <br/>
-  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_SJC.png" height="200px"/>
-  <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_dispersion.png" height="200px"/> <br/>
+  <img align="left" src="{{ site.url }}{{ site.baseurl }}/_data/images/site_SJC.png" height="200px"/>
+  <img align="right" src="{{ site.url }}{{ site.baseurl }}/_data/images/site_dispersion.png" height="200px"/> <br/>
 </div>
 </div>
 </div>
@@ -83,8 +83,8 @@ iframe {
   <p>**Ji, Q.**, & Zhao, L. (2022). Automatic measurement and quality control of S3KS-SKKS differential traveltimes and the influence of mantle heterogeneity. _Geophysical Journal International_.</p>
   
   <br/>
-  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_SKKS.png" height="190px"/>
-  <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_kernel.png" height="190px"/> <br/>
+  <img align="left" src="{{ site.url }}{{ site.baseurl }}/_data/images/site_SKKS.png" height="190px"/>
+  <img align="right" src="{{ site.url }}{{ site.baseurl }}/_data/images/site_kernel.png" height="190px"/> <br/>
 </div>
 </div>
 </div>
