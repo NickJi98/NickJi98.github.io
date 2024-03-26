@@ -28,8 +28,8 @@ pre{
 <!-- Invited talks -->
 {% if entry.keywords == 'invited' %}
 <div class="invited-talk">
-    <p>{{ entry.date }}&nbsp;&nbsp;{{ entry.location }}
-    <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+    <p>{{ entry.date }}&nbsp;&nbsp;{{ entry.location }}&nbsp;&nbsp;[
+    <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/{{ entry.file }}" target="_blank">PDF</a> (in Chinese)]
     <br>{{ entry.title }}</p>
 </div>
 {% else %}
