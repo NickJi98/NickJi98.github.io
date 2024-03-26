@@ -9,9 +9,12 @@ permalink: /Blogs/
 #### &nbsp; ####
 
 <div class="jumbotron">
-{% for article in site.data.news %}
-<b>{{ article.date }}</b>
-
-{{ article.headline }}
-{% endfor %}
+<div class="col-xs-12 col-sm-12 col-lg-12 clearfix">
+  <div class="well">
+  <center><h3>MIT Integration Bee</h3></center>
+  <p></p>
 </div>
+</div>
+</div>
+
+<p> &nbsp; </p>
