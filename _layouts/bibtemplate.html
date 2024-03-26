@@ -30,7 +30,7 @@ pre{
 <div class="invited-talk">
     <p>{{ entry.date }}&nbsp;&nbsp;{{ entry.location }}
     {% if entry.file %}
-        &nbsp;&nbsp;[<a href="{{ site.url }}{{ site.baseurl }}/_data/talks/{{ entry.file }}" target="_blank">PDF</a> (in Chinese) ]
+        &nbsp;[ <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/{{ entry.file }}" target="_blank">PDF</a> (in Chinese) ]
     {% endif %}
     <br>{{ entry.title }}</p>
 </div>
@@ -41,7 +41,7 @@ pre{
 <div class="conference">
     <p>{{ entry.year }} {{ entry.conference }} ({{ entry.present_type }})
     {% if entry.file %}
-        &nbsp;&nbsp;[<a href="{{ site.url }}{{ site.baseurl }}/_data/conference/{{ entry.file }}" target="_blank">PDF</a>]
+        &nbsp[ <a href="{{ site.url }}{{ site.baseurl }}/_data/conference/{{ entry.file }}" target="_blank">PDF</a> ]
     {% endif %}
     <br>{{ entry.title }}</p>
 </div>
