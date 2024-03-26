@@ -61,13 +61,30 @@ iframe {
   <center><h3>Noise interferometry with DAS</h3></center>
   <p>Distributed acoustic sensing (DAS) technique transforms fiber-optic cables into dense arrays of seismic strain meters. In urban areas, direct usage of telecom infrastructure helps DAS ambient-noise interferometry become a powerful way for subsurface imaging. Different from seismic stations which have three-component seismograms, each DAS channel only records the normal strain along the fiber. Scientists usually focus on two channels on the same linear segment to perform interferometry, and only Rayleigh waves show up. Using linear segments has the advantage of getting clean Rayleigh modes, while the wave-path coverage is very limited along the cable. </p>
 
-  <p>My recent work reports a successful observation and dispersion analysis of Love waves within ambient-noise cross-correlation functions, obtained from an urban DAS grid in San Jose, California. Identification of different wave modes is supported by theoretical DAS angular response. Our joint inversion of Rayleigh and Love wave dispersion curves provide stable image of the shallow subsurface shear-wave velocity structure, which demonstrates the potential of applying noise interferometry beyond linear DAS cables. </p>
+  <p>My recent work reports a successful observation and dispersion analysis of Love waves within ambient-noise cross-correlation functions, obtained from an urban DAS grid in San Jose, California. Identification of different wave modes is supported by theoretical DAS angular response. Our joint inversion of Rayleigh and Love wave dispersion curves provide stable image of the shallow subsurface shear-wave velocity structure, which demonstrates the potential of applying noise interferometry beyond linear DAS cables.</p>
 
   <p>**Ji, Q.**, Luo, B., & Biondi, B. (2024). Exploiting the Potential of Urban DAS Grids: Ambient-Noise Subsurface Imaging Using Joint Rayleigh and Love Waves. _Seismological Research Letters_.</p>
   
   <br/>
   <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_SJC.png" height="200px"/>
   <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_dispersion.png" height="200px"/> <br/>
+</div>
+</div>
+</div>
+
+<p> &nbsp; </p>
+
+<div class="jumbotron">
+<div class="col-xs-12 col-sm-12 col-lg-12 clearfix">
+  <div class="well">
+  <center><h3>Global-scale seismic waveform modeling for deep Earth's interior</h3></center>
+  <p>My very first experience in seismology. Synthetic seismograms are crucial for measuring the difference between our current knowledge of the Earth's interior structure and the true one. This work performs seismic waveform modeling in 3D Earth's model using AxiSEM3D to quantify the influence of mantle heterogeneity on arrival time of SmKS phases which travel through the outermost outer core. The banana-donut sensitivity kernel can be computed by the adjoint method to visualize the Fresnel zone in which the structure has dominant influence on the arrival time.</p>
+
+  <p>**Ji, Q.**, & Zhao, L. (2022). Automatic measurement and quality control of S3KS-SKKS differential traveltimes and the influence of mantle heterogeneity. _Geophysical Journal International_.</p>
+  
+  <br/>
+  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_SKKS.png" height="200px"/>
+  <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_kernel.png" height="200px"/> <br/>
 </div>
 </div>
 </div>
