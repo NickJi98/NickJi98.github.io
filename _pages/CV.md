@@ -9,27 +9,35 @@ permalink: /CV/
 #### &nbsp; ####
 
 ## Education
-
-| :------------- | :----: | :------------------------------------------------- | 
-| 2020 - Present | &nbsp;&nbsp;&nbsp;&nbsp; | PhD Candidate in Geophysics, Stanford University |
-| 2016 - 2020    | &nbsp;&nbsp;&nbsp;&nbsp; | BSc in Geophysics, Peking University             |
-
-
-## Education
 <table style="width: 100%;">
-  <col width="100px">
-  <col width="200px">
+  <col width="20%;">
+  <col width="80%;">
   <tr>
-    <td>Column 1</td>
-    <td>Column 2</td>
+    <td>2020 - Present</td>
+    <td>PhD Candidate in Geophysics, Stanford University</td>
+  </tr>
+  <tr>
+    <td>2016 - 2020</td>
+    <td>BSc in Geophysics, Peking University</td>
   </tr>
 </table>
 
 
 #### &nbsp; ####
 ## Honors and Awards
-
-| :------------- | :----: | :------------------------------------------------- | 
-| 2020 | &nbsp;&nbsp;&nbsp;&nbsp; | Outstanding Graduate Award, Peking University |
-| 2018 | &nbsp;&nbsp;&nbsp;&nbsp; | National Scholarship, Peking University |
-| 2017 | &nbsp;&nbsp;&nbsp;&nbsp; | Robin Li Scholarship, Peking University |
+<table style="width: 100%;">
+  <col width="20%;">
+  <col width="80%;">
+  <tr>
+    <td>2020</td>
+    <td>Outstanding Graduate Award, Peking University</td>
+  </tr>
+  <tr>
+    <td>2018</td>
+    <td>National Scholarship, Peking University</td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td>Robin Li Scholarship, Peking University</td>
+  </tr>
+</table>
