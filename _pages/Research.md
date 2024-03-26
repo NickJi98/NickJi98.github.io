@@ -66,7 +66,7 @@ iframe {
   <p>**Ji, Q.**, Luo, B., & Biondi, B. (2024). Exploiting the Potential of Urban DAS Grids: Ambient-Noise Subsurface Imaging Using Joint Rayleigh and Love Waves. _Seismological Research Letters_.</p>
   
   <br/>
-  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_Isaac.png" height="200px"/>
+  <img align="left" src="{{ site.url }}{{ site.baseurl }}/images/site_dispersion.png" height="200px"/>
   <img align="right" src="{{ site.url }}{{ site.baseurl }}/images/site_PSD.png" height="200px"/> <br/>
 </div>
 </div>
