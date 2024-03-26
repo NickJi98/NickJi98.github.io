@@ -28,8 +28,10 @@ pre{
 <!-- Invited talks -->
 {% if entry.keywords == 'invited' %}
 <div class="invited-talk">
-    <p>{{ entry.date }}&nbsp;&nbsp;{{ entry.location }}&nbsp;&nbsp;[
-    <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/{{ entry.file }}" target="_blank">PDF</a> (in Chinese)]
+    <p>{{ entry.date }}&nbsp;&nbsp;{{ entry.location }}
+    {% if entry.file %}
+        &nbsp;&nbsp;[<a href="{{ site.url }}{{ site.baseurl }}/_data/talks/{{ entry.file }}" target="_blank">PDF</a> (in Chinese) ]
+    {% endif %}
     <br>{{ entry.title }}</p>
 </div>
 {% else %}
@@ -37,7 +39,11 @@ pre{
 <!-- Conference presentations -->
 {% if entry.keywords == 'conference' %}
 <div class="conference">
-    <p>{{ entry.year }} {{ entry.conference }} ({{ entry.present_type }})<br>{{ entry.title }}</p>
+    <p>{{ entry.year }} {{ entry.conference }} ({{ entry.present_type }})
+    {% if entry.file %}
+        &nbsp;&nbsp;[<a href="{{ site.url }}{{ site.baseurl }}/_data/conference/{{ entry.file }}" target="_blank">PDF</a>]
+    {% endif %}
+    <br>{{ entry.title }}</p>
 </div>
 
 <!-- Journal articles -->
