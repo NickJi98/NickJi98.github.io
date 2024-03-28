@@ -13,7 +13,7 @@ permalink: /Blogs/
 <div class="col-xs-12 col-sm-12 col-lg-12 clearfix">
   <div class="well">
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {{ post.excerpt }}
+  {{ post.excerpt | strip_html }}
   </div>
 </div>
 </div>
