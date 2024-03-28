@@ -1,6 +1,7 @@
 ---
 title: "MIT Integration Bee"
 layout: postlay
+date: 2024-03-27
 ---
 
 <p><a href="https://math.mit.edu/~yyao1/integrationbee.html" target="_blank">MIT integration bee</a> is a yearly tradition every January in MIT. I do it just for fun and, of course, I don't have the time limit :). My solutions are posted below. Fairly speaking, I also grabbed the hints from others for some problems, and sometimes the techniques are pretty amazing.</p>
@@ -17,7 +18,7 @@ layout: postlay
   <tr>
     <td>2023 MIT Integration Bee (42nd):</td>
     <td>
-    <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Finals.pdf" target="_blank">Finals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Semifinals.pdf" target="_blank">Semifinals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Quarterfinals.pdf" target="_blank">Quarterfinals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Regular.pdf" target="_blank">Regular Season</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Finals.pdf" target="_blank">Finals</a> | Semifinals | Quarterfinals | Regular Season
     </td>
   </tr>
 </table>
