@@ -8,11 +8,13 @@ permalink: /Blogs/
 # My Blogs
 #### &nbsp; ####
 
-<ul>
 {% for post in site.posts %}
-  <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
-  </li>
+<div class="jumbotron">
+<div class="col-xs-12 col-sm-12 col-lg-12 clearfix">
+  <div class="well">
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.excerpt }}
+  </div>
+</div>
+</div>
 {% endfor %}
-</ul>
