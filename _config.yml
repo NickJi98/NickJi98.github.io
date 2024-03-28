@@ -31,11 +31,13 @@ nav_pages:
   - name: CV
   - name: Publications
   - name: Research
+  - name: Blogs
 
 include:
   - .htaccess
   - _pages
   - _data
+  _ _posts
 
 
 # Conversion
