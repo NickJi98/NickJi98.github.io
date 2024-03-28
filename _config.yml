@@ -37,7 +37,7 @@ include:
   - .htaccess
   - _pages
   - _data
-  _ _posts
+  - _posts
 
 # Conversion
 markdown: kramdown
