@@ -39,7 +39,6 @@ include:
   - _data
   _ _posts
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
