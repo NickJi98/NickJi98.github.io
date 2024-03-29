@@ -30,6 +30,7 @@ iframe {
 }
 .jumbotron{
     padding-bottom:20px;
+    background-color:#FFFFF0;
 }
 </style>
 
