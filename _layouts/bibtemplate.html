@@ -31,6 +31,9 @@ pre{
     <p>{{ entry.date }}&nbsp;&nbsp;{{ entry.location }}
     {% if entry.file %}
         &nbsp;[ <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/{{ entry.file }}" target="_blank">PDF</a> ]
+        {% if entry.lang %}
+            &nbsp;(in {{ entry.lang }})
+        {% endif %}
     {% endif %}
     <br>{{ entry.title }}</p>
 </div>
