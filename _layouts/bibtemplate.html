@@ -42,6 +42,9 @@ pre{
     <p>{{ entry.year }} {{ entry.conference }} ({{ entry.present_type }})
     {% if entry.file %}
         &nbsp;[ <a href="{{ site.url }}{{ site.baseurl }}/_data/conference/{{ entry.file }}" target="_blank">PDF</a> ]
+        {% if entry.lang %}
+            &nbsp;(in {{ entry.lang }})
+        {% endif %}
     {% else %}
         {% if entry.link %}
             &nbsp;[ <a href="{{ entry.link }}" target="_blank">Link</a> ]
