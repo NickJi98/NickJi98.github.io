@@ -18,7 +18,7 @@ date: 2024-03-27
   <tr>
     <td>2023 MIT Integration Bee (42nd):</td>
     <td>
-    <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Finals.pdf" target="_blank">Finals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Semifinals.pdf" target="_blank">Semifinals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Quarterfinals.pdf" target="_blank">Quarterfinals</a> | Regular Season
+    <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Finals.pdf" target="_blank">Finals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Semifinals.pdf" target="_blank">Semifinals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Quarterfinals.pdf" target="_blank">Quarterfinals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2023_Regular.pdf" target="_blank">Regular Season</a>
     </td>
   </tr>
 </table>
