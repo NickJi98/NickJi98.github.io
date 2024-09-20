@@ -42,7 +42,9 @@ pre{
             {% endif %}
         {% endif %}
     {% endif %}
-    <br>{{ entry.title }}</p>
+    {% if entry.title %}
+        <br>{{ entry.title }}</p>
+    {% endif %}
 </div>
 {% else %}
 
