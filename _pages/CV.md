@@ -13,11 +13,11 @@ permalink: /CV/
   <col width="20%;">
   <col width="80%;">
   <tr>
-    <td>2020 - Present</td>
+    <td>2021.1 - Present</td>
     <td>PhD Candidate in Geophysics, Stanford University</td>
   </tr>
   <tr>
-    <td>2016 - 2020</td>
+    <td>2016.9 - 2020.6</td>
     <td>BSc in Geophysics, Peking University</td>
   </tr>
 </table>
@@ -28,6 +28,10 @@ permalink: /CV/
 <table style="width: 100%;">
   <col width="20%;">
   <col width="80%;">
+  <tr>
+    <td>2024</td>
+    <td>Kauffmann Fellowship, Stanford University</td>
+  </tr>
   <tr>
     <td>2020</td>
     <td>Outstanding Graduate Award, Peking University</td>
