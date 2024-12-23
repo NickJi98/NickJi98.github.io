@@ -24,7 +24,7 @@ date: 2024-03-27
   <tr>
     <td>2022 MIT Integration Bee (41st):</td>
     <td>
-    <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2022_Finals.pdf" target="_blank">Finals</a> | Semifinals | Quarterfinals | Regular Season
+    <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2022_Finals.pdf" target="_blank">Finals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2022_Semifinals.pdf" target="_blank">Semifinals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2022_Quarterfinals.pdf" target="_blank">Quarterfinals</a> | <a href="{{ site.url }}{{ site.baseurl }}/_data/files/MIT_integration/2022_Regular.pdf" target="_blank">Regular Season</a>
     </td>
   </tr>
 </table>
