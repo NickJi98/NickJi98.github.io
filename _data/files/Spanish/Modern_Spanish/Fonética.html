@@ -1,0 +1,160 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- common.css -->
+      <style>* {-webkit-tap-highlight-color: rgba(0,0,0,0);}html {-webkit-text-size-adjust: none;}body {font-family: -apple-system, Helvetica, Arial, sans-serif;margin: 0;padding: 20px;color: #333;word-wrap: break-word;}h1, h2, h3, h4, h5, h6 {line-height: 1.1;}img {max-width: 100% !important;height: auto;}blockquote {margin: 0;padding: 0 15px;color: #777;border-left: 4px solid #ddd;}hr {background-color: #ddd;border: 0;height: 1px;margin: 15px 0;}code {font-family: Menlo, Consolas, 'Ubuntu Mono', Monaco, 'source-code-pro', monospace;line-height: 1.4;margin: 0;padding: 0.2em 0;font-size: 90%;background-color: rgba(0,0,0,0.04);border-radius: 3px;}pre > code {margin: 0;padding: 0;font-size: 100%;word-break: normal;background: transparent;border: 0;}ol {list-style-type: decimal;}ol ol, ul ol {list-style-type: lower-latin;}ol ol ol, ul ol ol, ul ul ol, ol ul ol {list-style-type: lower-roman;}table {border-spacing: 0;border-collapse: collapse;margin-top: 0;margin-bottom: 16px;}table th {font-weight: bold;}table th, table td {padding: 6px 13px;border: 1px solid #ddd;}table tr {border-top: 1px solid #ccc;}table tr:nth-child(even) {background-color: #f8f8f8;}input[type="checkbox"] {cursor: default;margin-right: 0.5em;font-size: 13px;}.task-list-item {list-style-type: none;}.task-list-item+.task-list-item {margin-top: 3px;}.task-list-item input {float: left;margin: 0.3em 1em 0.25em -1.6em;vertical-align: middle;}#tag-field {margin: 8px 2px 10px;}#tag-field .tag {display: inline-block;background: #cadff3;border-radius: 4px;padding: 1px 8px;color: black;font-size: 12px;margin-right: 10px;line-height: 1.4;}</style>
+      <!-- ace-static.css -->
+      <style>.ace_static_highlight {white-space: pre-wrap;}.ace_static_highlight .ace_gutter {width: 2em;text-align: right;padding: 0 3px 0 0;margin-right: 3px;}.ace_static_highlight.ace_show_gutter > .ace_line {padding-left: 2.6em;}.ace_static_highlight .ace_line {position: relative;}.ace_static_highlight .ace_gutter-cell {-moz-user-select: -moz-none;-khtml-user-select: none;-webkit-user-select: none;user-select: none;top: 0;bottom: 0;left: 0;position: absolute;}.ace_static_highlight .ace_gutter-cell:before {content: counter(ace_line, decimal);counter-increment: ace_line;}.ace_static_highlight {counter-reset: ace_line;}</style>
+      <style>.ace-chrome .ace_gutter {background: #ebebeb;color: #333;overflow : hidden;}.ace-chrome .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-chrome {background-color: #FFFFFF;color: black;}.ace-chrome .ace_cursor {color: black;}.ace-chrome .ace_invisible {color: rgb(191, 191, 191);}.ace-chrome .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-chrome .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-chrome .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-chrome .ace_invalid {background-color: rgb(153, 0, 0);color: white;}.ace-chrome .ace_fold {}.ace-chrome .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-chrome .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-chrome .ace_support.ace_type,.ace-chrome .ace_support.ace_class.ace-chrome .ace_support.ace_other {color: rgb(109, 121, 222);}.ace-chrome .ace_variable.ace_parameter {font-style:italic;color:#FD971F;}.ace-chrome .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-chrome .ace_comment {color: #236e24;}.ace-chrome .ace_comment.ace_doc {color: #236e24;}.ace-chrome .ace_comment.ace_doc.ace_tag {color: #236e24;}.ace-chrome .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-chrome .ace_variable {color: rgb(49, 132, 149);}.ace-chrome .ace_xml-pe {color: rgb(104, 104, 91);}.ace-chrome .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-chrome .ace_heading {color: rgb(12, 7, 255);}.ace-chrome .ace_list {color:rgb(185, 6, 144);}.ace-chrome .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-chrome .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-chrome .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-chrome .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-chrome .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-chrome .ace_gutter-active-line {background-color : #dcdcdc;}.ace-chrome .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-chrome .ace_storage,.ace-chrome .ace_keyword,.ace-chrome .ace_meta.ace_tag {color: rgb(147, 15, 128);}.ace-chrome .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-chrome .ace_string {color: #1A1AA6;}.ace-chrome .ace_entity.ace_other.ace_attribute-name {color: #994409;}.ace-chrome .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}</style>
+      <!-- export.css -->
+      <style>
+        body{margin:0 auto;max-width:800px;line-height:1.4}
+        #nav{margin:5px 0 10px;font-size:15px}
+        #titlearea{border-bottom:1px solid #ccc;font-size:17px;padding:10px 0;}
+        #contentarea{font-size:15px;margin:16px 0}
+        .cell{outline:0;min-height:20px;margin:5px 0;padding:5px 0;}
+        .code-cell{font-family:Menlo,Consolas,'Ubuntu Mono',Monaco,'source-code-pro',monospace;font-size:12px;}
+        .latex-cell{white-space:pre-wrap;}
+      </style>
+      <!-- User CSS -->
+      <style> .text-cell {font-size: 15px;}.code-cell {font-size: 12px;}.markdown-cell {font-size: 15px;}.latex-cell {font-size: 15px;}</style>
+    </head>
+    <body>
+      <div id="nav"><div>Next: <a href='Español Moderno  Libro 1.html'>Español Moderno: Libro 1</a>, Up: <a href='index.html'>Index</a></div></div>
+      <div id="titlearea">
+        <h2>Fonética</h2>
+      </div>
+      <div id="contentarea"><div class="cell text-cell"><h3>字母</h3>
+<ol>
+<li>认为有29个字母：ch、ll、ñ</li>
+<li>认为有27个字母：ch归到c，ll归到l</li>
+</ol>
+<h3>元音：a e i o u</h3>
+<ul>
+<li>发音永远不变</li>
+<li>举例：<strong>España, español, te amo, Olivia</strong></li>
+</ul>
+<h3>ch：che</h3>
+<ul>
+<li>举例：<strong>China, Chupa chups</strong></li>
+<li>Chupa chups：巴塞罗那的一家糖果公司</li>
+</ul>
+<h3>ll：elle</h3>
+<ul>
+<li>举例：<strong>llama, paella</strong></li>
+<li>paella：海鲜饭，发源于瓦伦西亚</li>
+</ul>
+<h3>ñ：eñe</h3>
+<ul>
+<li>只有西班牙语有字母ñ</li>
+<li>举例：<strong>España, español, el niño</strong></li>
+</ul>
+<h3>分音节规则(1)</h3>
+<ul>
+<li>元音可以单独构成音节</li>
+<li>一个辅音跟后面，两个辅音一前一后，三个辅音两前一后<br>
+举例：<strong>Es.pa.ña, ins.ti.tu.to, pa.e.lla, im.por.tan.te</strong></li>
+</ul>
+<h3>重音规则</h3>
+<ol>
+<li>重音符号所在音节<br>
+举例：<strong>mamá, papá</strong></li>
+<li>倒数第二个音节：以<strong>元音, -n, -s</strong>结尾<br>
+举例：<strong>China, España, Chupa chups, toman, matan, matamos</strong></li>
+<li>最后一个音节：以<strong>其他辅音</strong>结尾<br>
+举例：<strong>español, animal</strong></li>
+</ol>
+<h3>f：efe</h3>
+<ul>
+<li>举例：<strong>flamenco, sofá, Francia</strong></li>
+<li>flamenco：发源于西班牙南部（塞维利亚，格拉纳达），西班牙国粹</li>
+</ul>
+<h3>h：hache</h3>
+<ul>
+<li>举例：hola</li>
+<li>ola：浪花</li>
+</ul>
+<h3>k：ka</h3>
+<ul>
+<li>用于<strong>拼写外来词汇</strong>，<strong>清辅音</strong></li>
+</ul>
+<h3>l：ele</h3>
+<ul>
+<li>舌尖贴住牙龈，注意在单词结尾的时候：<strong>al, el, il, ol, ul</strong></li>
+<li>举例：<strong>lomo, lento, luna; tal, papel, útil, sol</strong></li>
+</ul>
+<h3>m：eme</h3>
+<ul>
+<li><strong>鼻浊辅音</strong></li>
+<li>举例：<strong>mamá</strong></li>
+</ul>
+<h3>n：ene</h3>
+<ul>
+<li><strong>鼻浊辅音</strong></li>
+<li>注意在单词结尾的时候：<strong>an, en, in, on, un</strong></li>
+</ul>
+<h3>p：pe</h3>
+<ul>
+<li><strong>清辅音</strong></li>
+<li>举例：<strong>papá, papa, Papa, pan, puma, patata</strong></li>
+<li>papa：拉美地区指土豆；Papa：教皇</li>
+</ul>
+<h3>t：te</h3>
+<ul>
+<li><strong>清辅音</strong></li>
+<li>举例：<strong>té, te, tomate, tomatina</strong></li>
+<li>tomatina：西红柿节，瓦伦西亚小镇Buñol</li>
+</ul>
+<h3>r, rr：ere, erre</h3>
+<ul>
+<li>大舌音发音方法：舌头微微翘起，放松不抵住上堂，使劲向外吐气</li>
+<li><strong>单击颤音</strong>：一个r，在词中或词尾<br>
+举例：<strong>toro, Perú, iris, cara; amor, mar, sur, dar, tener</strong></li>
+<li><strong>多击颤音</strong>：r在词首或<strong><font color="#ff2600">n/l/s之后</font></strong>，rr<br>
+举例：<strong>rosa, risa, restaurante;&nbsp;<font color="#ff40ff">alrededor, Enrique, sonrisa, Israel</font>; jarra, torre, terreno, perro; corre, socorro</strong></li>
+<li>toro：斗牛；alrededor：周围地；corre：跑；socorro：救命</li>
+</ul>
+<h3>s：ese</h3>
+<ul>
+<li>词尾不拉长音；在<font color="#ff2600"><b>l/m/n前面浊化</b></font></li>
+<li>举例：<strong>mes, masas, osos, somos;&nbsp;<font color="#ff40ff">isla, mismo (adj. 同一个的), asno</font></strong></li>
+<li>mismo：同一个的；asno：驴</li>
+</ul>
+<h3>w：doble uve</h3>
+<ul>
+<li><strong>用于拼写外来词</strong>；发音时<strong>不咬唇</strong></li>
+<li>举例：<strong>wifi, kiwi</strong></li>
+</ul>
+<h3>x：equis</h3>
+<ul>
+<li>在<strong>词首</strong>（或辅音前），发s音<br>
+举例：<strong>xantoma, xantosis; texto, exponer</strong></li>
+<li>在词中间，发/γs/音；一般已不区分是否在辅音前<br>
+举例：<strong>examen, éxito; texto, exponer</strong></li>
+<li>特例：<strong><font color="#ff2600">México, mexicano</font></strong></li>
+</ul>
+<h3>y：ye, i griega</h3>
+<ul>
+<li>与<strong>ll</strong>相同的发音：<strong>元音之前</strong><br>
+举例：<strong>yoga, yogur</strong></li>
+<li>与<strong>i</strong>相同的发音：<strong>元音之后或单独使用</strong><br>
+举例：<strong>hay, ley, rey, y, soy</strong></li>
+</ul>
+<h3>b, v：be, uve</h3>
+<ul>
+<li><strong>停顿词首</strong>，或<strong><font color="#ff2600">m/n之后</font></strong>：<strong>浊辅音</strong><br>
+举例：<strong>bala, bisel, boda, bulto; vano, vela, voto, vulcanita;&nbsp;<font color="#ff40ff">bomba, un beso</font></strong></li>
+<li><strong>词中间</strong>：<strong>与w相同</strong><br>
+举例：<strong>iba, sube, rubí, lobo; cava, ave, <font color="#ff2600">viví</font>, pavo</strong></li>
+</ul><div><h3>d：de</h3></div><div><ul><li><strong>停顿词首</strong>，或<strong><font color="#ff2600">l/n之后</font></strong>：<strong>浊辅音</strong><br>举例：<b>don (Don Quijote), doña, dos, dar, dilema, dele<font color="#000000"><span style="caret-color: rgb(0, 0, 0);">;&nbsp;</span></font><font color="#ff40ff">Linda, sueldo</font></b></li><li><strong>词中间和词尾</strong>：发英语中th的音，<b>词尾弱化</b><br>举例：<b>dado, dudosa, ustedes; red, David, edad, piedad</b></li></ul><div><h3>c, q, z：ce, cu, zeta</h3><ul><li><b>字母q单独不发音，必须以qu为整体才能发音</b></li><li><font color="#ff2600"><b>发音规律：</b></font></li></ul><b><table style="font-weight: normal;"><thead><tr><th style="text-align: center;">清辅音</th><th style="text-align: center;">咬舌音</th></tr></thead><tbody><tr><td style="text-align: center;">ca</td><td style="text-align: center;">za</td></tr><tr><td style="text-align: center;">que</td><td style="text-align: center;">ce</td></tr><tr><td style="text-align: center;">qui</td><td style="text-align: center;">ci</td></tr><tr><td style="text-align: center;">co</td><td style="text-align: center;">zo</td></tr><tr><td style="text-align: center;">cu</td><td style="text-align: center;">zu</td></tr></tbody></table></b><ul><li><b><span style="color: rgb(51, 51, 51); caret-color: rgb(51, 51, 51); font-weight: normal;">清辅音举例：</span><strong style="color: rgb(51, 51, 51); caret-color: rgb(51, 51, 51);">campo, queso, aquí, copa, cuna; cama, quemo, quiso, cosa, culpa；</strong><strong style="caret-color: rgb(51, 51, 51);"><font color="#ff2600">¿Qué tal?, ¿Cómo estás?</font></strong></b></li><li>咬舌音举例：<b>taza, zapato, cena, peces, cine, <font color="#ff2600">cocina</font>, zona, zumo</b></li><li><strong style="font-weight: bold;"><b><font color="#ff2600">特殊情况：c在c/n/t/d之前发/γ/</font></b></strong><br style="font-weight: normal;">举例：<b>lección, accidente,&nbsp;técnico, tecnología, acto, contacto</b><br></li></ul><div><div><h3>j, g：jota, ge</h3></div><div><ul><li><font color="#ff2600"><b>发音规律：</b></font></li><table style="font-weight: normal;"><thead><tr><th style="text-align: center;">浊辅音(词中间弱化)</th><th style="text-align: center;">/h/音</th></tr></thead><tbody><tr><td style="text-align: center;">ga</td><td style="text-align: center;">ja</td></tr><tr><td style="text-align: center;">gue</td><td style="text-align: center;">ge / je</td></tr><tr><td style="text-align: center;">gui</td><td style="text-align: center;">gi / ji</td></tr><tr><td style="text-align: center;">go</td><td style="text-align: center;">jo</td></tr><tr><td style="text-align: center;">gu</td><td style="text-align: center;">ju</td></tr></tbody></table><li style="font-weight: bold;"><span style="font-weight: normal;">浊辅音举例：</span>gato, gama, guerra, guisa, gusano, guardar; saga, pague, águila, lago, laguna</li><li><font color="#ff40ff" style="font-weight: bold;"><span style="caret-color: rgb(255, 64, 255);"><strong style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51);"><b><font color="#ff2600"><span style="caret-color: rgb(255, 38, 0);">güe, güi：分音符，元音分开发音</span></font></b></strong><br style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-weight: normal;"><span style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-weight: normal;">举例：</span>cigüera, güero,&nbsp;lingüístico,&nbsp;güica, antigüedad<br></span></font></li><li><span style="caret-color: rgb(255, 64, 255);"><span style="color: rgb(51, 51, 51); font-weight: normal; caret-color: rgb(51, 51, 51);">/h/音举例：</span><span style="caret-color: rgb(51, 51, 51);"><b>jaro, jinete, tejido, juro, joven; género, <font color="#ff2600">gigante</font>, girasol</b></span><br></span></li><li><b>ojo</b>：眼睛；jaja/jeje/jiji：情感词；<b>Jesús</b>：耶稣；<b>jamón</b>：西班牙火腿</li></ul><h3>二重元音</h3><div><ul><li><b><font color="#ff2600">二重元音当成一个元音，弱元音上重音无，重音在强元音上</font></b><br></li><li><font color="#000000"><span style="caret-color: rgb(255, 38, 0);">强弱：<b>ai/ay, ei/ey, oi/oy, au, eu, ou</b></span></font></li><li>弱强：<b>ia, ie, io, ua, ue, uo</b></li><li><b><span style="font-weight: normal;">弱弱：</span><b>iu, ui/uy</b><br></b></li><li>举例：<b>hay, laico, seis, reina, hoy, coima; <font color="#ff2600">Europa, europeo</font>, Laura,&nbsp;autobús；estudiante, Asia, pie, miedo, nueve；pascual, continuo, ruido, Luisa, ciudad</b></li><li>日常用语：<b>buenos días, buenas tardes, buenas noches</b></li></ul><div><h3>三重元音</h3><div><ul><li><b><font color="#ff2600">三重元音当成一个元音，弱强弱</font></b><br></li><li>举例：<b>buey,&nbsp;averigüéis, Uruguay, Paraguay</b></li></ul><div><h3>辅音连缀</h3><div><ul><li><b><font color="#ff2600">两个辅音当成一个辅音</font></b></li><li>辅音+<b><font color="#ff2600">l</font></b>：<b>bl, pl; gl, cl; fl</b><br>举例：<b><b>&nbsp;blanco, blusa,&nbsp;</b>plato, pleno; inglés, <font color="#ff2600">gloria</font>, clavo, clima; flor</b></li><li><b><span style="font-weight: normal;">辅音+</span><b><font color="#ff2600">r</font></b><span style="font-weight: normal;">：</span><b>br, pr; gr, cr; fr; dr, tr</b><br style="font-weight: normal;"><span style="font-weight: normal;">举例：</span><b><b>&nbsp;profesor, primo,&nbsp;</b></b>grande; fruta; padre, madre, tres<br></b></li><li><b>日常用语：Gracias. &nbsp; De nada. </b>(多谢. 不客气.)</li><li><b>日常礼仪：un abrazo </b>(一个拥抱)</li></ul><div><h3>分音节规则(2)</h3><ul><li>元|辅元：<b>pupitre, Madrid, europeo</b></li><li>元辅|辅元：<b>inglés, escribimos</b><br></li><li>元辅辅|辅元：<b>instrumento,&nbsp;construcción</b></li></ul></div></div></div></div></div></div><ul><ul></ul></ul></div></div></div></div>
+</div><div class="cell text-cell"><br>
+</div></div>
+      <script>document.body.onkeyup = function(e) {
+if (e.keyCode === 39) window.location.href = 'Español Moderno  Libro 1.html';
+}</script>
+    </body>
+    </html>
+  
