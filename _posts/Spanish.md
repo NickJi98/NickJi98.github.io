@@ -1,5 +1,5 @@
 ---
-title: "Aprender Español: Mi viaje"
+title: "Aprender español: Mi viaje"
 layout: postlay
 order: 4
 ---
