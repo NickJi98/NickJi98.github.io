@@ -18,7 +18,8 @@ permalink: /Blogs/
 # My Blogs
 #### &nbsp; ####
 
-{% for post in site.posts %}
+{% assign sorted = site.posts | sort: "order" %}
+{% for post in sorted %}
 <div class="jumbotron">
 <div class="col-xs-12 col-sm-12 col-lg-12 clearfix">
   <div class="well">

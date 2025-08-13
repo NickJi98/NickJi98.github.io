@@ -1,7 +1,7 @@
 ---
 title: "MIT Integration Bee (updating)"
 layout: postlay
-date: 2024-03-27
+order: 3
 ---
 
 <p><a href="https://math.mit.edu/~yyao1/integrationbee.html" target="_blank">MIT integration bee</a> is a yearly tradition every January in MIT. I do it just for fun and, of course, I don't have the time limit :). My solutions are posted below. Fairly speaking, I also grabbed the hints from others for some problems, and sometimes the techniques are pretty amazing.</p>

@@ -1,7 +1,7 @@
 ---
 title: "My Notes"
 layout: postlay
-date: 2024-06-12
+order: 1
 ---
 
 <p>This post shares my class notes and lectures. I also post some of my lectures for TA requirement and seminar presentations.</p>
