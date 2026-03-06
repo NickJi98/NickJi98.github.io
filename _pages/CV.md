@@ -18,7 +18,7 @@ permalink: /CV/
   </tr>
   <tr>
     <td></td>
-    <td>Thesis: Atmospheric signatures in ambient seismoacoustic signals [ Defense slides: <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/Ji_Defense_20260227.pdf" target="_blank">PDF</a>, <a href="https://drive.google.com/file/d/1y-qSfBII1agZS8bKsZt0KRkyhq9pijRx/view?usp=drive_link" target="_blank">PPT with movies</a>]</li></td>
+    <td>Thesis: Atmospheric signatures in ambient seismoacoustic signals [ Defense slides: <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/Ji_Defense_20260227.pdf" target="_blank">PDF</a>, <a href="https://drive.google.com/file/d/1y-qSfBII1agZS8bKsZt0KRkyhq9pijRx/view?usp=drive_link" target="_blank">PPT with movies</a>]</td>
   </tr>
   <tr>
     <td>2016.9 - 2020.6</td>
