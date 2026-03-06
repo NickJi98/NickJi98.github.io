@@ -18,11 +18,19 @@ permalink: /CV/
   </tr>
   <tr>
     <td></td>
-    <td>Thesis: Atmospheric signatures in ambient seismoacoustic signals [ Defense slides: <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/Ji_Defense_20260227.pdf" target="_blank">PDF</a>, <a href="https://drive.google.com/file/d/1y-qSfBII1agZS8bKsZt0KRkyhq9pijRx/view?usp=drive_link" target="_blank">PPT with movies</a>]</td>
+    <td>PhD Thesis: Atmospheric signatures in ambient seismoacoustic signals</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>[ Defense: <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/Ji_Defense_20260227.pdf" target="_blank">PDF</a>, <a href="https://drive.google.com/file/d/1y-qSfBII1agZS8bKsZt0KRkyhq9pijRx/view?usp=drive_link" target="_blank">PPT</a>]</td>
   </tr>
   <tr>
     <td>2016.9 - 2020.6</td>
     <td>BSc in Geophysics, Peking University</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Undergraduate Thesis: Automatic measurement and quality control of S3KS-S2KS differential traveltime and the influence of mantle heterogeneity</td>
   </tr>
 </table>
 
