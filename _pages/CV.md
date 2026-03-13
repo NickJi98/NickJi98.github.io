@@ -22,7 +22,7 @@ permalink: /CV/
   </tr>
   <tr>
     <td></td>
-    <td>[ Defense: <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/Ji_Defense_20260227.pdf" target="_blank">PDF</a>, <a href="https://drive.google.com/file/d/1y-qSfBII1agZS8bKsZt0KRkyhq9pijRx/view?usp=drive_link" target="_blank">PPT</a> ]</td>
+    <td>[ Defense: <a href="{{ site.url }}{{ site.baseurl }}/_data/talks/Ji_Defense_20260227.pdf" target="_blank">PDF</a>, <a href="https://drive.google.com/file/d/1y-qSfBII1agZS8bKsZt0KRkyhq9pijRx/view?usp=drive_link" target="_blank">PPT</a> ] [ Thesis: <a href="{{ site.url }}{{ site.baseurl }}/_data/files/Ji_Qing_Dissertation.pdf" target="_blank">PDF</a> (Ch3 public in months due to copyright) ]</td>
   </tr>
   <tr>
     <td>2016.9 - 2020.6</td>
