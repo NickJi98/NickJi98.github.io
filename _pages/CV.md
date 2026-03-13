@@ -14,7 +14,7 @@ permalink: /CV/
   <col width="80%;">
   <tr>
     <td>2021.1 - 2026.3</td>
-    <td>PhD Candidate in Geophysics, Stanford University</td>
+    <td>PhD in Geophysics, Stanford University</td>
   </tr>
   <tr>
     <td></td>
