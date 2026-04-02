@@ -32,6 +32,10 @@ permalink: /CV/
     <td></td>
     <td>Thesis: Automatic measurement and quality control of S3KS-S2KS differential traveltime and the influence of mantle heterogeneity</td>
   </tr>
+  <tr>
+    <td></td>
+    <td>[ Thesis: <a href="{{ site.url }}{{ site.baseurl }}/_data/files/Undergrad_Thesis.pdf" target="_blank">PDF</a> (In Chinese) ]</td>
+  </tr>
 </table>
 
 
