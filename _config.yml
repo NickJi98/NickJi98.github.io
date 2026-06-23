@@ -1,6 +1,6 @@
 # Site settings
 title: Qing Ji
-email: qingji@stanford.edu
+email: qing.ji@beg.utexas.edu
 description: Personal academic webpage of Ji, Qing
 baseurl: ""
 url: ""
@@ -13,16 +13,16 @@ url: ""
 # Footer info
 affiliation: >
     Qing Ji (纪晴)<br/>
-    PhD student in Geophysics<br/>
-    Stanford University
+    Postdoctoral Fellow in Geophysics<br/>
+    University of Texas at Austin
 
 location: >
-  Department of Geophysics<br/>
-  Doerr School of Sustainability<br/>
-  Stanford University
+  Bureau of Economic Geology<br/>
+  Jackson School of Geosciences<br/>
+  University of Texas at Austin
 
 contact: >
-    <a href="mailto:qingji@stanford.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Email: qingji@stanford.edu</a> <br/>
+    <a href="mailto:qing.ji@beg.utexas.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Email: qing.ji@beg.utexas.edu</a> <br/>
     <a href="https://github.com/NickJi98" target="_blank"><i style="font-size:19px" class="fa">&#xf092;</i> GitHub</a>
     
 
