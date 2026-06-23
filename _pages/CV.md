@@ -34,7 +34,7 @@ permalink: /CV/
   </tr>
   <tr>
     <td></td>
-    <td>[ Thesis: <a href="{{ site.url }}{{ site.baseurl }}/_data/files/Undergrad_Thesis.pdf" target="_blank">PDF</a> (In Chinese) ]</td>
+    <td>[ Thesis: <a href="{{ site.url }}{{ site.baseurl }}/_data/files/Undergrad_Thesis.pdf" target="_blank">PDF</a> (in Chinese) ]</td>
   </tr>
 </table>
 
@@ -44,6 +44,10 @@ permalink: /CV/
 <table style="width: 100%;">
   <col width="20%;">
   <col width="80%;">
+  <tr>
+    <td>2026</td>
+    <td>Exceptional Thesis Award, Department of Geophysics, Stanford University</td>
+  </tr>
   <tr>
     <td>2024</td>
     <td>Kauffmann Fellowship, Stanford University</td>

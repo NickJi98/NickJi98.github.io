@@ -44,6 +44,9 @@ iframe {
   
   <p>Very different from microseisms which compose of seismic surface waves, this atmosphere-ground coupling is local quasi-static. Using realistic surface pressure fluctuations from large-eddy simulation (LES) of turbulence, I perform seismic modeling to interpret the observed seismic imprints. Inter-disciplinary approaches bridging seismic observation and modeling together with atmospherc sciences are crucial to decipher the nature of this type of ambient noise, lay the foundation for exploiting these signals for inversion of shallow subsurface structures, and further study the atmosphere-ground couplings under other environments and scenarios.</p>
 
+  <p>**Ji, Q.**, Dey, I., & Dunham, E. M. (2026). Turbulent seismoacoustic imprints during a hurricane landfall. _Science_.</p>
+
+
   <p>**Ji, Q.**, & Dunham, E. M. (2024). Ambient noise from the atmosphere within the seismic hum period band: A case study of hurricane landfall. _Earth and Planetary Science Letters_.</p>
 
   <br/>
