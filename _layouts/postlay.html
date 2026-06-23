@@ -3,6 +3,12 @@ layout: gridlay
 ---
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date: "%b %-d, %Y" }}</p>
+<p class="post-meta">
+  Published: {{ page.date | date: "%b %-d, %Y" }}
+  {% if page.last_updated %}
+    <br>
+    Last updated: {{ page.last_updated | date: "%b %-d, %Y" }}
+  {% endif %}
+</p>
 
 {{ content }}
